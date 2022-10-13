@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
- * main -entry
- * return: always 0
+ *  ain - Entery
+ *  Return: Always 0
  */
 int main(void)
 {
-printf("with proper grammar, but the outsome is a piece of art.\n");
-return (0);
+printf("with proper grammer, but the outcome is a piece of art,\n")
+	return (0);
 }
+
