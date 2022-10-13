@@ -1,7 +1,7 @@
 #include <unistd.h>
 /**
  * main - print a text
- * return: always 1
+ * Return: 1
  */
 int main(void)
 {
