@@ -9,7 +9,7 @@ _putchar('_');
 _putchar('p');
 _putchar('u');
 _putchar('t');
-_puthcar('c');
+_putchar('c');
 _putchar('h');
 _putchar('a');
 _putchar('r');
