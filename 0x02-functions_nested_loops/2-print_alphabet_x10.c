@@ -10,7 +10,7 @@ int j;
 
 for (j = 0; j < 10; x++)
 {
-for (i = 'a'; i <= 'z' i++)
+for (i = 'a'; i <= 'z'; i++)
 {
 _putchar(j);
 }
