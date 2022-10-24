@@ -17,23 +17,3 @@ void print_array(int *a, int n)
 			printf("%d", a[n - 1]);
 	printf("\n");
 }
-
-9-strcpy.c
-#include "main.h"
-
-/**
- * char *_strcpy - a function that copies the string pointed to by src
- * @dest: copy to
- * @src: copy from
- * Return: string
- */
-char *_strcpy(char *dest, char *src)
-{
-	int i = 0;
-
-	for (; src[i] != '\0'; i++)
-	{
-		dest[i] = src[i];
-	}
-	return (dest);
-}
