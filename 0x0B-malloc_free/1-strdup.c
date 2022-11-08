@@ -6,35 +6,25 @@
  * @str: char
  * Return: 0
  */
-char *string_nconcat(char *s1, char *s2, unsigned int n)
+char *_strdup(char *str)
 {
-    char *concat;
-    unsigned int len = n, index;
+	int i, end;
+	char *array;
 
-    if (s1 == NULL)
-        s1 = "";
+	if (str == NULL)
+		return (NULL);
 
-    if (s2 == NULL)
-        s2 = "";
+	for (end = 0; end <= *str; end++)
+	{
+	}
 
-    for (index = 0; s1[index]; index++)
-        len++;
+	end += 1;
+	array = malloc(sizeof(char) * end);
 
-    concat = malloc(sizeof(char) * (len + 1));
+	for (i = 0; i < end; i++)
+		array[i] = str[i];
 
-    if (concat == NULL)
-        return (NULL);
-
-    len = 0;
-
-    for (index = 0; s1[index]; index++)
-        concat[len++] = s1[index];
-
-    for (index = 0; s2[index] && index < n; index++)
-        concat[len++] = s2[index];
-
-    concat[len] = '\0';
-
-    return (concat);
+	if (array == NULL)
+		return (NULL);
+	return (array);
 }
-
